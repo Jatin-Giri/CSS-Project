@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rotated Grid</title>
+    <style>
+      body {
+        background-color: #333;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+        overflow: hidden;
+      }
+      img {
+        max-width: 100%;
+      }
+      .gallery {
+        position: absolute;
+        top: 45px;
+        /* --img-size: 100px; */
+        --img-size: calc(100px - .35rem/2);
+        display: grid;
+        grid-template-columns: repeat(6, var(--img-size));
+        grid-template-rows: repeat(3, var(--img-size));
+        gap: 0.35rem;
+        img {
+          aspect-ratio: 1;
+          object-fit: cover;
+          grid-column: span 2;
+          clip-path: path( "M 80 20 C 100 0 100 0 120 20 C 140 40 160 60 180 80 C 200 100 200 100 180 120 C 160 140 140 160 120 180 C 100 200 100 200 80 180 C 60 160 40 140 20 120 C 0 100 0 100 20 80 Z" );
+          transition: 
+          filter 500ms,
+          scale 300ms,
+          clip-path 400ms;
+
+          &:nth-of-type(4) {
+            grid-column: 2 / span 2;
+          }
+          &:hover {
+            clip-path: path("M 0 0 C 100 0 100 0 200 0 C 200 50 200 50 200 80 C 200 100 200 100 200 120 C 200 150 200 150 200 200 C 100 200 100 200 0 200 C 0 150 0 150 0 120 C 0 100 0 100 0 80 Z");
+            z-index: 100;
+            scale: 1.4;
+            border-radius: 15px;
+        }
+        &:not(:hover) {
+            animation: zIndexHack 500ms;
+          }
+        }
+      }
+      .gallery:hover > img{
+        filter: brightness(.5) saturate(.7);
+      }
+      .gallery >img:hover{
+        filter: brightness(1) saturate(1.5);
+      }
+      @keyframes zIndexHack {
+        0%,
+        100% {
+          z-index: 10;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <article class="gallery">
+      <img src="/Image/sea side.jpg" alt="" />
+      <img src="/Image/pexels-bianca-754355.jpg" alt="" />
+      <img src="/Image/R (1).jfif" alt="" />
+      <img src="/Image/OIP.jfif" alt="" />
+      <img src="/Image/kinbane-castle-174_3896.jpg" alt="" />
+      <img src="/Image/joshua-sortino-xZqr8WtYEJ0-unsplash.jpg" alt="" />
+      <img src="/Image/pexels-pixabay-462162.jpg" alt="" />
+      <img src="/Image/glowey2.jpg" alt="" />
+    </article>
+  </body>
+</html>

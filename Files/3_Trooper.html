@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darth Vadar</title>
+    <style>
+       
+        :root{
+            --timing : 700ms;
+            --rotate :20deg; 
+        }
+        body{
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* 
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+            */
+            perspective: 600px;
+            overflow: hidden;
+        }
+        img{
+            max-width: 100%;
+            /* border: 2px solid red; */
+        }
+        .trooper{
+            width: 700px;
+            aspect-ratio: 16/9;
+            /* outline: 2px solid limegreen; */
+            position: relative;
+            transform-style: preserve-3d;
+            transition: rotate var(--timing) ease;
+        }
+        .trooper:hover{
+            rotate: x var(--rotate);
+        }
+        .trooper::before{
+            content: '';
+            position: absolute;
+            inset: 0px;
+            /* background: lime; */
+            z-index: 100;
+            background-image: 
+            radial-gradient(circle, transparent 150px, black);
+            opacity: 0;
+            transition: opacity var(--timing);
+        }
+        .trooper:hover::before{
+            opacity: 1;
+        }
+        .trooper::after{
+            content: '';
+            position: absolute;
+            inset: 80% .5rem .5rem;
+            translate: 0;
+            transform:  translateZ(-80px);
+            background-color: black;
+            filter: blur(1.4rem);
+            z-index: 1;
+            transition: 
+            rotate var(--timing),
+            translate var(--timing);
+        }
+        .trooper:hover::after{
+            rotate: x calc(-1 * var(--rotate));
+            translate: 0 60px;
+        }
+        .bg-img{
+            position: absolute;
+            z-index: 10;
+        }
+        .logo{
+            position: absolute;
+            filter: invert(1);
+            width: 100%;
+            margin-inline: auto;
+            scale: .6;
+            z-index: 322;
+            inset: auto 0 .5rem;
+            bottom: -250px;
+            left: -470px;
+            transform:translateY(0rem) translateZ(20px);
+            transition: var(--timing);
+            opacity: 0;
+        }
+        .trooper:hover .logo{  
+            rotate: x calc(-1 * var(--rotate));
+            transform:translateY(0rem) translateZ(70px);
+            scale: .65;
+            bottom: -100px;
+            z-index: 322;
+            opacity: 1;
+        }
+        .front-img{
+            position: absolute;
+            opacity: 0;
+            scale: 1.3;
+            z-index: 12;
+            transform-origin: bottom;
+            transition: all var(--timing);
+            left: -30px;
+        }
+        .trooper:hover .front-img{
+            opacity: 1;
+            rotate: x calc(-1 * var(--rotate));
+        }
+    </style>
+</head>
+<body>
+    <div class="trooper">
+        <img class="logo" src="/Image/star-wars-logo.png" alt="">
+        <img class="front-img" src="/Image/trooper-ft.png" alt="">   <!-- ft -->
+        <img src="/Image/trooperbg.jpg" alt="" class="bg-img">    <!-- bg -->
+    </div>
+</body>
+</html>

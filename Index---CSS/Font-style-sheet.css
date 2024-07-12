@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Anton';
+    src: url('/Fonts___/AntonSC-Regular.ttf');
+}
+@font-face {
+    font-family: 'Blackink' ;
+    src: url('/Fonts___/BlakaInk-Regular.ttf');
+}
+@font-face {
+    font-family: 'BungeeSpice';
+    src: url('/Fonts___/BungeeSpice-Regular.ttf');
+}
+@font-face{
+    font-family: 'Dancingscript';
+    src: url('/Fonts___/DancingScript-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Foldit';
+    src: url('/Fonts___/Foldit-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Honk';
+    src: url('/Fonts___/Honk-Regular-VariableFont_MORF\,SHLN.ttf');
+}
+@font-face {
+    font-family: 'IndieFlower';
+    src: url('/Fonts___/IndieFlower-Regular.ttf');
+}
+@font-face {
+    font-family: 'Barcode';
+    src: url('/Fonts___/LibreBarcode128Text-Regular.ttf');
+}
+@font-face {
+    font-family: 'Nabla';
+    src: url('/Fonts___/Nabla-Regular-VariableFont_EDPT\,EHLT.ttf');
+}
+@font-face {
+    font-family: 'Pacifico';
+    src: url('/Fonts___/Pacifico-Regular.ttf');
+}
+@font-face {
+    font-family: 'PlaywriteCU';
+    src: url('/Fonts___/PlaywriteCU-ExtraLight.ttf');
+}
+@font-face {
+    font-family: 'PlaywriteHR';
+    src: url('/Fonts___/PlaywriteHR-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'PlaywritePE';
+    src: url('/Fonts___/PlaywritePE-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Rajdhani';
+    src: url('/Fonts___/Rajdhani-Regular.ttf');
+}
+@font-face {
+    font-family: 'RobotoItalic';
+    src: url('/Fonts___/RobotoMono-Italic-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('/Fonts___/RobotoMono-VariableFont_wght.ttf');
+}
+
+
+
+
+
+
+/* -------------------------------------- */
+.box-1{
+    font-family: 'Anton';
+}
+.box-2{
+    font-family: 'Blackink';
+}
+.box-3{
+    font-family: 'BungeeSpice';
+}
+.box-4{
+    font-family: 'Dancingscript';
+}
+.box-5{
+    font-family: 'Foldit';
+}
+.box-6{
+    font-family: 'Honk';
+}
+.box-7{
+font-family: 'IndieFlower';
+}
+.box-8{
+font-family: 'Barcode';
+}
+.box-10{
+font-family: 'Nabla';
+}
+.box-11{
+font-family: 'Pacifico';
+}
+.box-12{
+font-family: 'PlaywriteCU';
+}
+.box-13{
+font-family:'PlaywriteHR' ;
+}
+.box-14{
+font-family: 'PlaywritePE';
+}
+.box-15{
+    font-family: 'Rajdhani';
+}
+.box-16{
+    font-family: 'RobotoItalic';
+}
+.box-17{
+    font-family: 'Roboto';
+}

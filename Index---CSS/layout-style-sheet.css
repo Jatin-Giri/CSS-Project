@@ -1,0 +1,64 @@
+html{
+    color-scheme: dark;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Blackink';
+    font-family: 'Honk';
+    font-family: 'IndieFlower';
+    font-family: 'Barcode';
+    font-family: 'Nabla';
+}
+
+main{
+    padding: 20px;
+    display: grid;
+   grid-gap: 8px;
+   grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+   grid-auto-rows: 250px;
+   grid-auto-flow: dense;
+}
+
+main div{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 10px #000;
+    background-color: #0000;
+    border-radius: 5px;
+    /* font-size: 20px; */
+    text-align: center;
+    &:nth-child(n){
+        background-color: steelblue;
+    }
+    &:nth-child(2n){
+        background-color: seagreen;
+    }
+}
+
+.horizontal{
+    grid-column: span 2;
+}
+.vertical{
+    grid-row: span 2;
+}
+.big{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+
