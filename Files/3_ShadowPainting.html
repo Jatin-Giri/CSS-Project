@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *{
+          margin: 0;
+          padding: 0;
+      }
+      body{
+          background: #333;
+      }
+      :root{     
+          --black: rgb(48, 89, 48);
+          --red :rgb(255,0,0); 
+      }
+      div{
+          height: 10px;
+          width: 10px;
+          /* background-color: aqua; */
+          position: absolute;
+          top: 25%;
+          left: 50%;
+          box-shadow: 10px 10px var(--black), 20px 10px var(--black), 30px 10px var(--black),
+           40px 10px var(--black), 50px 10px var(--black), 60px 10px var(--black), 70px 10px var(--black),
+            80px 10px var(--black), 90px 10px var(--black),
+
+          0px 20px var(--black), 10px 20px var(--black), 20px 20px var(--black), 30px 20px var(--black),
+         40px 20px var(--black), 50px 20px var(--black), 60px 20px var(--black), 70px 20px var(--black), 
+         80px 20px var(--black), 90px 20px var(--black), 100px 20px var(--black) ,
+
+          0px 30px var(--black), 10px 30px var(--black), 20px 30px var(--black), 30px 30px var(--red), 
+          40px 30px var(--black), 50px 30px var(--black), 60px 30px var(--black), 70px 30px var(--black),
+          80px 30px var(--black), 90px 30px var(--black), 100px 30px var(--black),
+          0px 40px var(--black), 10px 40px var(--black), 20px 40px var(--black), 30px 40px var(--black),
+
+          40px 40px var(--black), 50px 40px var(--black), 60px 40px var(--black), 70px 40px var(--black), 
+          80px 40px var(--black), 90px 40px var(--black), 100px 40px var(--black) ,
+
+          0px 50px var(--black), 10px 50px var(--black), 20px 50px var(--black), 30px 50px var(--black), 
+          40px 50px var(--black), 50px 50px var(--black), 60px 50px var(--black), 70px 50px var(--black), 
+          80px 50px var(--black), 90px 50px var(--black), 100px 50px var(--black),
+
+          0px 60px var(--black), 10px 60px var(--black), 20px 60px var(--black), 30px 60px var(--black) ,
+
+          0px 70px var(--black), 10px 70px var(--black), 20px 70px var(--black), 30px 70px var(--black) , 
+          40px 70px var(--black), 50px 70px var(--black), 60px 70px var(--black), 70px 70px var(--black), 
+          80px 70px var(--black), 90px 70px var(--black),
+
+          -10px 80px var(--black), 0px 80px var(--black), 10px 80px var(--black), 20px 80px var(--black),
+
+          -110px 90px var(--black),-30px 90px var(--black),-20px 90px var(--black), -10px 90px var(--black), 
+          0px 90px var(--black), 10px 90px var(--black), 20px 90px var(--black),
+
+          -110px 100px var(--black),-50px 100px var(--black),-40px 100px var(--black),-30px 100px var(--black),
+          -20px 100px var(--black), -10px 100px var(--black), 0px 100px var(--black), 10px 100px var(--black),
+           20px 100px var(--black), 30px 100px var(--black),  40px 100px var(--black),  50px 100px var(--black),
+
+          -110px 110px var(--black),-100px 110px var(--black),-60px 110px var(--black),-50px 110px var(--black),
+          -40px 110px var(--black),-30px 110px var(--black),-20px 110px var(--black), -10px 110px var(--black),
+           0px 110px var(--black), 10px 110px var(--black), 20px 110px var(--black), 50px 110px var(--black),
+
+          -110px 120px var(--black), -100px 120px var(--black), -90px 120px var(--black), -80px 120px var(--black),
+           -70px 120px var(--black),-60px 120px var(--black),-50px 120px var(--black), -40px 120px var(--black), 
+           -30px 120px var(--black),-20px 120px var(--black), -10px 120px var(--black), 0px 120px var(--black),
+            10px 120px var(--black) , 20px 120px var(--black),
+
+          -110px 130px var(--black), -100px 130px var(--black), -90px 130px var(--black), -80px 130px var(--black),
+           -70px 130px var(--black),-60px 130px var(--black),-50px 130px var(--black), -40px 130px var(--black), 
+           -30px 130px var(--black),-20px 130px var(--black), -10px 130px var(--black), 0px 130px var(--black),
+            10px 130px var(--black) , 20px 130px var(--black),
+
+          -110px 140px var(--black), -100px 140px var(--black), -90px 140px var(--black), -80px 140px var(--black),
+           -70px 140px var(--black),-60px 140px var(--black),-50px 140px var(--black), -40px 140px var(--black), 
+           -30px 140px var(--black),-20px 140px var(--black), -10px 140px var(--black), 0px 140px var(--black),
+            10px 140px var(--black) , 20px 140px var(--black),
+
+           -100px 150px var(--black), -90px 150px var(--black), -80px 150px var(--black),
+           -70px 150px var(--black),-60px 150px var(--black),-50px 150px var(--black), -40px 150px var(--black), 
+           -30px 150px var(--black),-20px 150px var(--black), -10px 150px var(--black), 0px 150px var(--black),
+            10px 150px var(--black) , 20px 150px var(--black),
+
+           -90px 160px var(--black), -80px 160px var(--black),
+           -70px 160px var(--black),-60px 160px var(--black),-50px 160px var(--black), -40px 160px var(--black), 
+           -30px 160px var(--black),-20px 160px var(--black), -10px 160px var(--black), 0px 160px var(--black),
+            10px 160px var(--black) ,
+
+            -80px 170px var(--black),
+           -70px 170px var(--black),-60px 170px var(--black),-50px 170px var(--black), -40px 170px var(--black), 
+           -30px 170px var(--black),-20px 170px var(--black), -10px 170px var(--black), 0px 170px var(--black),
+        
+           -70px 180px var(--black),-60px 180px var(--black),-50px 180px var(--black), -40px 180px var(--black), 
+           -30px 180px var(--black),-20px 180px var(--black), -10px 180px var(--black),
+        
+           -60px 190px var(--black),-50px 190px var(--black), -40px 190px var(--black), 
+           -20px 190px var(--black), -10px 190px var(--black),
+
+           -60px 200px var(--black),-50px 200px var(--black),  -10px 200px var(--black),
+           
+           -60px 210px var(--black),  -10px 210px var(--black),
+
+           -60px 220px var(--black), -50px 220px var(--black), -10px 220px var(--black), 0px 220px var(--black);
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>
