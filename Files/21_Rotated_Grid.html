@@ -33,15 +33,18 @@
           transition: 
           filter 500ms,
           scale 300ms,
+          transform 300ms,
           clip-path 400ms;
 
           &:nth-of-type(4) {
             grid-column: 2 / span 2;
+            transition: all .2s ease-in-out;
           }
           &:hover {
             clip-path: path("M 0 0 C 100 0 100 0 200 0 C 200 50 200 50 200 80 C 200 100 200 100 200 120 C 200 150 200 150 200 200 C 100 200 100 200 0 200 C 0 150 0 150 0 120 C 0 100 0 100 0 80 Z");
             z-index: 100;
-            scale: 1.4;
+            /* scale: 1.4; */
+            transform: scaleX(1.2) scaleY(1.2);
             border-radius: 15px;
         }
         &:not(:hover) {
