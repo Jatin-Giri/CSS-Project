@@ -33,9 +33,10 @@ main div{
     height: 100%;
     box-shadow: 0 0 10px #000;
     background-color: #0000;
-    border-radius: 5px;
+    border-radius: 8px;
     /* font-size: 20px; */
     text-align: center;
+    overflow: hidden;
     &:nth-child(n){
         background-color: steelblue;
     }

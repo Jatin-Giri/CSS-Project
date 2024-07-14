@@ -1,71 +1,90 @@
 @font-face {
     font-family: 'Anton';
-    src: url('/Fonts___/AntonSC-Regular.ttf');
+    src: url('/Fonts/AntonSC-Regular.woff2');
 }
 @font-face {
     font-family: 'Blackink' ;
-    src: url('/Fonts___/BlakaInk-Regular.ttf');
+    src: url('/Fonts/BlakaInk-Regular.woff2');
 }
 @font-face {
     font-family: 'BungeeSpice';
-    src: url('/Fonts___/BungeeSpice-Regular.ttf');
+    src: url('/Fonts/BungeeSpice-Regular.woff2');
 }
 @font-face{
     font-family: 'Dancingscript';
-    src: url('/Fonts___/DancingScript-VariableFont_wght.ttf');
+    src: url('/Fonts/DancingScript-VariableFont_wght.woff2');
 }
 @font-face {
     font-family: 'Foldit';
-    src: url('/Fonts___/Foldit-VariableFont_wght.ttf');
+    src: url('/Fonts/Foldit-VariableFont_wght.woff2');
 }
 
 @font-face {
     font-family: 'Honk';
-    src: url('/Fonts___/Honk-Regular-VariableFont_MORF\,SHLN.ttf');
+    src: url('/Fonts/Honk-Regular-VariableFont_MORF\,SHLN.woff2');
 }
 @font-face {
     font-family: 'IndieFlower';
-    src: url('/Fonts___/IndieFlower-Regular.ttf');
+    src: url('/Fonts/IndieFlower-Regular.woff2');
 }
 @font-face {
     font-family: 'Barcode';
-    src: url('/Fonts___/LibreBarcode128Text-Regular.ttf');
+    src: url('/Fonts/LibreBarcode128Text-Regular.woff2');
 }
 @font-face {
     font-family: 'Nabla';
-    src: url('/Fonts___/Nabla-Regular-VariableFont_EDPT\,EHLT.ttf');
+    src: url('/Fonts/Nabla-Regular-VariableFont_EDPT\,EHLT.woff2');
 }
 @font-face {
     font-family: 'Pacifico';
-    src: url('/Fonts___/Pacifico-Regular.ttf');
+    src: url('/Fonts/Pacifico-Regular.woff2');
 }
 @font-face {
     font-family: 'PlaywriteCU';
-    src: url('/Fonts___/PlaywriteCU-ExtraLight.ttf');
+    src: url('/Fonts/PlaywriteCU-ExtraLight.woff2');
 }
 @font-face {
     font-family: 'PlaywriteHR';
-    src: url('/Fonts___/PlaywriteHR-VariableFont_wght.ttf');
+    src: url('/Fonts/PlaywriteHR-VariableFont_wght.woff2');
 }
 @font-face {
     font-family: 'PlaywritePE';
-    src: url('/Fonts___/PlaywritePE-VariableFont_wght.ttf');
+    src: url('/Fonts/PlaywritePE-VariableFont_wght.woff2');
 }
 @font-face {
     font-family: 'Rajdhani';
-    src: url('/Fonts___/Rajdhani-Regular.ttf');
+    src: url('/Fonts/Rajdhani-Regular.woff2');
 }
 @font-face {
     font-family: 'RobotoItalic';
-    src: url('/Fonts___/RobotoMono-Italic-VariableFont_wght.ttf');
+    src: url('/Fonts/RobotoMono-Italic-VariableFont_wght.woff2');
 }
 @font-face {
     font-family: 'Roboto';
-    src: url('/Fonts___/RobotoMono-VariableFont_wght.ttf');
+    src: url('/Fonts/RobotoMono-VariableFont_wght.woff2');
 }
 
 
-
+@font-face {
+    font-family: 'blackone';
+    src: url('/Fonts/BlackOpsOne-Regular.woff2');
+}
+@font-face {
+    font-family: 'Caveat';
+    src: url('/Fonts/Caveat-VariableFont_wght.woff2');
+}
+@font-face {
+    font-family: 'Codystar';
+    src: url('/Fonts/Codystar-Regular.woff2');
+}
+@font-face {
+    font-family: 'GreatVibes';
+    src: url('/Fonts/GreatVibes-Regular.woff2');
+}
+@font-face {
+    font-family: 'Zeyada';
+    src: url('/Fonts/Zeyada-Regular.woff2');
+}
 
 
 
