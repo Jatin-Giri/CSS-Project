@@ -39,14 +39,6 @@ main div{
     border-radius: 4px;
     text-align: center;
     overflow: hidden;
-    /* 
-    &:nth-child(n){
-        background-color: rgba(70, 131, 180, 0.508);
-    }
-    &:nth-child(2n){
-        background-color: rgba(46, 139, 86, 0.438);
-    }
-    */
 }
 
 .horizontal{
