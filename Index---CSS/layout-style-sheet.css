@@ -28,7 +28,6 @@ main{
    grid-auto-rows: 250px;
    grid-auto-flow: dense;
    margin: 4px;
-   /* border: 2px solid green; */
    position: relative;
 }
 
