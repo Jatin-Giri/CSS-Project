@@ -58,7 +58,6 @@ iframe{
 
 @media screen and (width < 760px) {
     main{
-        /* background-color: red; */
         grid-template-columns: repeat(auto-fit,minmax(90vw,1fr));
     }
     .horizontal{
